@@ -1,0 +1,228 @@
+/* sm screen */
+@media (min-width: 270px) and (max-width: 450px) {
+  .container {
+    width: 270px;
+  }
+  .services div h5,
+  .box h1 {
+    font-size: 17px;
+  }
+
+  .box p {
+    font-size: 14px;
+  }
+
+  .box {
+    width: 260px;
+    top: 15%;
+    left: 2%;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  #home .button {
+    padding: 7px;
+    font-size: 12px;
+    margin: 10px;
+  }
+
+  header .logo a img {
+    width: 70px;
+    height: 40px;
+  }
+  .Special h2 {
+    margin-left: 10px;
+
+    font-size: 20px;
+  }
+
+  .services div p,
+  .Special p {
+    font-size: 14px;
+  }
+
+  .Special {
+    overflow-y: scroll;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+  }
+
+  /* form */
+  form {
+    max-width: 150px;
+    margin: auto;
+  }
+
+  textarea,
+  input {
+    width: 190px;
+  }
+
+  .services div img {
+    height: 150px;
+  }
+
+  .our-work .description {
+    overflow-y: scroll;
+  }
+
+  .icon-small-screen:hover ul {
+    display: block;
+    z-index: 99999999999999999;
+    transition-duration: 1s;
+  }
+
+  nav .list-large-screen {
+    display: none;
+  }
+  .butoon-line {
+    display: flex;
+  }
+}
+
+/* md screen */
+
+@media (min-width: 451px) and (max-width: 650px) {
+  .container {
+    width: 420px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  nav ul li a {
+    font-size: 13px;
+    margin: 0 7px;
+  }
+
+  header .logo a img {
+    width: 95px;
+    height: 45px;
+  }
+
+  .box p {
+    font-size: 14px;
+  }
+
+  .box {
+    width: 400px;
+    top: 22%;
+    left: 2%;
+  }
+
+  /* form */
+  form {
+    max-width: 300px;
+    margin: auto;
+  }
+
+  textarea,
+  input {
+    width: 300px;
+  }
+
+  .our-work .vide-works {
+    width: 400px;
+  }
+
+  .services div img {
+    height: 250px;
+  }
+}
+
+/* l screen */
+
+@media (min-width: 651px) and (max-width: 860px) {
+  .container {
+    width: 630px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .services div {
+    width: 250px;
+  }
+
+  .services div img {
+    height: 200px;
+  }
+
+  .map {
+    margin: 0 auto;
+  }
+
+  nav ul li a {
+    font-size: 18px;
+    margin: 0 7px;
+  }
+
+  .Special {
+    width: 300px;
+  }
+
+  .img-box {
+    width: 300px;
+  }
+  .description p,
+  .Special p {
+    font-size: 15px;
+  }
+
+  .our-work .vide-works {
+    width: 320px;
+  }
+
+  .our-work .description {
+    width: 250px;
+  }
+}
+
+/* xl screen */
+@media (min-width: 861px) and (max-width: 990px) {
+  .container {
+    width: 850px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .our-work .vide-works {
+    width: 380px;
+  }
+
+  .our-work .description {
+    width: 330px;
+  }
+
+  .description p,
+  .Special p {
+    font-size: 17px;
+  }
+  .foot-logo,
+  .plan div,
+  .services div {
+    width: 240px;
+  }
+}
+
+/* xxl screen */
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  .container {
+    width: 980px;
+  }
+}
+
+/* ext screen */
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+  .container {
+    width: 1190px;
+  }
+}
+
+@media (min-width: 1401px) {
+  .container {
+    width: 1390px;
+  }
+}
